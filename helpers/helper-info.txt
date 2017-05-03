@@ -1,0 +1,48 @@
+RANDOM QUOTES
+https://market.mashape.com/kashyap32/random-quotes
+https://market.mashape.com/andruxnet/random-famous-quotes
+
+http://forismatic.com/en/api/
+https://quotesondesign.com/api-v4-0/
+
+$.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
+  $("body").append(a[0].content + "<p>— " + a[0].title + "</p>")
+});
+
+http://quotesondesign.com/wp-json/posts
+
+http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1
+
+$('#get-another-quote-button').on('click', function(e) {
+    e.preventDefault();
+    
+    $.ajax( {
+      url: '/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1',
+      success: function(data) {
+        var post = data.shift(); // The data is an array of posts. Grab the first one.
+        $('#quote-title').text(post.title);
+        $('#quote-content').html(post.content);
+
+        // If the Source is available, use it. Otherwise hide it.
+        if (typeof post.custom_meta !== 'undefined' && typeof post.custom_meta.Source !== 'undefined') {
+          $('#quote-source').html('Source:' + post.custom_meta.Source);
+        } else {
+          $('#quote-source').text('');
+        }
+      },
+      cache: false
+    });
+  });
+});
+
+
+
+$(".fa-refresh").addClass("fa-spin")
+		   .delay(1000)
+		   .queue(function() {
+			   $(this).removeClass("fa-spin");
+			   $(this).dequeue();
+		   });
+
+var tweetUrl = "https://twitter.com/intent/tweet?text="+quote+" By "+authorName;
+http://twitter.com/home?status=Light%20tomorrow%20with%20today!%20%20http://en.forismatic.com/931a36951b/%20@forismatic

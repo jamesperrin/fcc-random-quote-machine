@@ -1,0 +1,49 @@
+https://market.mashape.com/montanaflynn/geocode-location-lookup
+
+// Service to retrieve quote from Forismatic.com
+// Forismatic.com no longer supported, blocking consuming API.
+
+http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json&key=100
+
+Thich Nhat Hanh
+
+            ,beforeSend: function( xhr ) {
+                //xhr.overrideMimeType( "text/plain; charset=x-user-defined" );
+                xhr.Access-Control-Allow-Origin( "*" );
+            }
+			
+hosts file is /etc/hosts on Mac and Linux. On Windows it's located in %windir%\system32\drivers\etc\hosts
+
+If it is not right do not do it; if it is not true do not say it.
+Into each life rain must fall but rain can be the giver of life and it is all in your attitude that makes rain produce sunshine. 
+
+{"quoteText":"We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world. ", "quoteAuthor":"Buddha", "senderName":"", "senderLink":"", "quoteLink":"http://forismatic.com/en/f7f7630324/"}
+
+
+Random Famous Quotes
+https://market.mashape.com/andruxnet/random-famous-quotes
+
+// These code snippets use an open-source library. http://unirest.io/net
+Task<HttpResponse<MyClass>> response = Unirest.post("https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous&count=1")
+.header("X-Mashape-Key", "KUQMDIvEi6mshYLdBtps8CIxTdsvp111rnhjsnCvUeXWkcgSNr")
+.header("Content-Type", "application/x-www-form-urlencoded")
+.header("Accept", "application/json")
+.asJson();
+  
+// These code snippets use an open-source library. http://unirest.io/php
+$response = Unirest\Request::post("https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous&count=1",
+  array(
+    "X-Mashape-Key" => "KUQMDIvEi6mshYLdBtps8CIxTdsvp111rnhjsnCvUeXWkcgSNr",
+    "Content-Type" => "application/x-www-form-urlencoded",
+    "Accept" => "application/json"
+  )
+);
+
+POST
+https://andruxnet-random-famous-quotes.p.mashape.com/
+
+{
+  "quote": "Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.",
+  "author": "Sherlock Holmes",
+  "category": "Famous",
+}

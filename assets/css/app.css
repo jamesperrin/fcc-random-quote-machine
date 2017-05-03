@@ -1,0 +1,79 @@
+body {
+    padding-top: 50px;
+    background: #eee;
+}
+
+#header,
+#footer {
+    min-height: 100px;
+}
+
+
+/*#header, #portfolio, #footer {
+    background: #eee;
+}*/
+
+
+/************************
+    MAIN CONTENT
+************************/
+
+#main-content>div.row>div {
+    border: 1px solid #000;
+    background: #FFF;
+    min-height: 200px;
+}
+
+
+/*
+#main-content > div.row > div h2 {
+    //border: 1px solid #f00;
+}
+*/
+
+
+/*
+#main-content > div.row > div p {
+    border: 1px solid #4cff00;
+}
+*/
+
+#quote-author {
+    font-size: 2em;
+}
+
+form {}
+
+
+/************************
+    FOOTER
+************************/
+
+#footer {}
+
+.fa-refresh+.fa {
+    display: inline-block;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.fa-refresh+.fa {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+
+/*
+.rotate{
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+}
+
+.rotate.down{
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+*/
