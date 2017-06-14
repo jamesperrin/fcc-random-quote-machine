@@ -1,0 +1,14 @@
+https://market.mashape.com/kashyap32/random-quotes
+https://market.mashape.com/andruxnet/random-famous-quotes
+
+http://forismatic.com/en/api/
+https://quotesondesign.com/api-v4-0/
+
+
+
+
+https://maps.googleapis.com/maps/api/geocode/json?latlng=47.6835776,-117.226761&key=AIzaSyB_6EPRMJ2oCIW3hd_8CzduQZl0wbPyiEk
+
+https://api.darksky.net/forecast/e8df7b7df394e36ea8cefcecab0e8224/47.678510599999996,-117.2291577?units=uk2&callback=jQuery311025068347932128865_1490956430097&_=1490956430098
+
+https://medium.freecodecamp.com/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d
